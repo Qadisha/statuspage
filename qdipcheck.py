@@ -13,7 +13,7 @@ def myping(host):
       ##
       ##  Update component status
       ##
-      url = "http://https://YYYYYYYYYYYYYYYYYYYYYYYYYYYYY/api/v1/components/" + sys.argv[2]
+      url = "http://YYYYYYYYYYYYYYYYYYYYYYYYYYYYY/api/v1/components/" + sys.argv[2]
       headers = {"Accept": "application/json", "Content-Type": "application/json", "X-Cachet-Application": "Qadisha", "X-Cachet-Token": "XXXXXXXXXXXXXXXXXXX"}
       dataj = {
           "order": 0,
@@ -29,7 +29,7 @@ def myping(host):
       ##
       ##  Update component status
       ##
-      url = "http://https://YYYYYYYYYYYYYYYYYYYYYYYYYYYYY/api/v1/components/" + sys.argv[2]
+      url = "http://YYYYYYYYYYYYYYYYYYYYYYYYYYYYY/api/v1/components/" + sys.argv[2]
       headers = {"Accept": "application/json", "Content-Type": "application/json", "X-Cachet-Application": "Qadisha", "X-Cachet-Token": "XXXXXXXXXXXXXXXXXXX"}
       dataj = {
           "order": 0,
