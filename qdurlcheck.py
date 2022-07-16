@@ -2,7 +2,6 @@ import requests
 import sys 
 
 h = {
-    ...
     "Cache-Control": "no-cache",
     "Pragma": "no-cache"
 }
