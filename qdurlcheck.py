@@ -1,7 +1,12 @@
 import requests
 import sys 
 
-x = requests.head(sys.argv[1])
+h = {
+    ...
+    "Cache-Control": "no-cache",
+    "Pragma": "no-cache"
+}
+x = requests.head(sys.argv[1], headers=h)
 print(x.status_code)
 
 
